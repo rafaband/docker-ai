@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: docker-ai
+  ai:
+    openai:
+      api-key: _
+      base-url: http://localhost:12434/engines/llama.cpp
+      chat:
+        options:
+          model: ai/gemma3
